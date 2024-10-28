@@ -1,0 +1,97 @@
+{% liquid
+  assign left_img = 'image.jpg' | asset_img_url
+  assign right_img = 'image1.png' | asset_img_url
+  assign top_img = 'image2.png' | asset_img_url
+  assign bottom_img = 'image3.png' | asset_img_url
+  assign bg_color = 'bg.png' | asset_img_url
+%}
+<div style="width: 100%; flex-direction: column; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+  <div style="width: 1215px; text-align: center; color: #2C2A29; font-size: 40px; font-family: Lora; font-weight: 400; line-height: 54px; word-wrap: break-word">Lorem ullamco
+  </div>
+  <div style="width: 1440px; height: 700px; padding-top: 41px; padding-bottom: 41.11px; padding-left: 325px; padding-right: 325px; justify-content: center; align-items: flex-start; gap: 32px; display: inline-flex">
+    <div style="width: 379px; height: 617.89px; position: relative">
+      <div style="width: 379px; height: 617.89px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 16px"></div>
+      <img style="width: 385px; height: 628px; border-radius: 16px" src="https://placehold.co/385x628" />
+    </div>
+    <div style="width: 379px; height: 617.89px; position: relative">
+      <div style="width: 379px; height: 617.89px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 16px"></div>
+      <img style="width: 385px; height: 628px; border-radius: 16px" src="https://placehold.co/385x628" />
+    </div>
+  </div>
+  <div style="width: 810px; text-align: center; color: #2C2A29; font-size: 16px; font-family: Lato; font-weight: 400; line-height: 22px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur eiusmod consectetur proident Lorem reprehenderit esse do anim velit in aliquip dolore ut officia. Consectetur reprehenderit proident do exercitation eu. Sunt fugiat pariatur elit est laboris quis. Esse mollit incididunt quis amet. Qui non irure incididunt laborum nisi cillum consequat aliquip aliquip cillum in. Ut excepteur labore voluptate tempor cupidatat dolor eiusmod do ipsum Lorem cupidatat do labore.<br/>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</div>
+</div>
+<div style="display: flex; justify-content: center; margin: 80px 0px;">
+  <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+    <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+      <div style="width: 684px; height: 800px; border-radius: 24px; overflow: hidden; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+        <img style="width: 684px; height: 800px" src="https://placehold.co/684x800" />
+      </div>
+      <div style="width: 684px; height: 800px; display: flex; flex-direction: column; justify-content: end; border-radius: 24px; overflow: hidden; background-image: url('{{bg_color}}');">
+        <div style="display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; padding: 48px 48px 48px 49px">
+          <div style="align-self: stretch; height: 100%; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+            <div style="align-self: stretch; height: 74px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+              <div style="align-self: stretch; color: #1F1F1F; font-size: 64px; font-family: Lora; font-weight: 400; line-height: 74px; word-wrap: break-word">Lorem ipsum</div>
+            </div>
+            <div style="align-self: stretch; height: 104px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+              <div style="align-self: stretch; color: #1F1F1F; font-size: 20px; font-family: Lato; font-weight: 400; line-height: 30px; word-wrap: break-word">Excepteur eiusmod consectetur</div>
+              <div style="align-self: stretch; color: #1F1F1F; font-size: 14px; font-family: Lato; font-weight: 400; line-height: 22px; word-wrap: break-word">Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</div>
+            </div>
+            <div style="align-self: stretch; height: 104px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+              <div style="align-self: stretch; color: #1F1F1F; font-size: 20px; font-family: Lato; font-weight: 400; line-height: 30px; word-wrap: break-word">Quis aliqua reprehenderit</div>
+              <div style="align-self: stretch; color: #1F1F1F; font-size: 14px; font-family: Lato; font-weight: 400; line-height: 22px; word-wrap: break-word">Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</div>
+            </div>
+            <div style="align-self: stretch; height: 104px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+              <div style="align-self: stretch; color: #1F1F1F; font-size: 20px; font-family: Lato; font-weight: 400; line-height: 30px; word-wrap: break-word">Ad sit cillum amet duis quis commodo</div>
+              <div style="align-self: stretch; color: #1F1F1F; font-size: 14px; font-family: Lato; font-weight: 400; line-height: 22px; word-wrap: break-word">Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex;">
+      <div style="width: 684px; height: 800px; display: flex; flex-direction: column; justify-content: end; border-radius: 24px; overflow: hidden; background-image: url('{{bg_color}}');">
+        <div style="padding: 0px 47.5px 70px 49.5px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 40px;">
+          <div style="align-self: stretch; color: #1F1F1F; font-size: 64px; font-family: Lora; font-weight: 400; line-height: 74px; word-wrap: break-word">
+            Mollit aliquip do ipsum consectetur</div>
+          <div style="align-self: stretch; color: #1F1F1F; font-size: 14px; font-family: Lato; font-weight: 400; line-height: 22px; word-wrap: break-word; letter-spacing: normal">
+            Ex laborum ea qui consectetur mollit commodo eiusmod culpa dolor cupidatat. Ullamco dolore irure ea sit elit velit 
+            non officia. Ad eu reprehenderit in et voluptate mollit. Reprehenderit incididunt magna consequat enim sit eiusmod
+            est dolor laborum cupidatat.
+            <br/>
+            Ipsum minim mollit irure dolore. Sint fugiat deserunt dolor aute enim et cillum 
+            adipisicing cillum nostrud anim. Sit dolore incididunt dolore do sunt pariatur consectetur id qui pariatur eu
+            incididunt adipisicing. Irure sint fugiat officia veniam consectetur. Esse laborum amet aliqua ad in sunt labore
+            duis.
+          </div>
+        </div>
+      </div>
+      <div style="height: 800px; padding-left: 0.50px; border-radius: 24px; overflow: hidden; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+        <img style="width: 692px; height: 800px" src="https://placehold.co/684x800" />
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "custom-test",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_left",
+        "label": "Image left"
+      }, {
+        "type": "image_picker",
+        "id": "image_right",
+        "label": "Image right"
+      }, {
+        "type": "image_picker",
+        "id": "image_top",
+        "label": "Image top"
+      }, {
+        "type": "image_picker",
+        "id": "image_bottom",
+        "label": "Image bottom"
+      }
+    ]
+  }
+{% endschema %}
